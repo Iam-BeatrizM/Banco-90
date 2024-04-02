@@ -12,16 +12,15 @@
 }
 
 #cartoes{
-    background-color:var(--vermelho);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#cartoes h3{
-    text-align: center;
-    background-color: blueviolet;
-}
+
 
 #grupocartoes{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -35,5 +34,20 @@
 .cartao{
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cartao1{
+    background-image: url(../images/cartaoUm.png);
+}
+
+#cartao2{
+    background-image: url(../images/cartaoDois.png);
+}
+
+#cartao3{
+    background-image: url(../images/cartaoTres.png);
 }
