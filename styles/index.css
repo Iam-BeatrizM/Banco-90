@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --marromescuro: #302727;
+    --vermelho: #ba2d2d;
+    --laranjaescuro: #f2511b;
+    --laranjaclaro: #f2861b;
+    --amarelo: #c7c730;
+}
+
+#cartoes{
+    background-color:var(--vermelho);
+}
+
+#cartoes h3{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#grupocartoes{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.cartao{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
